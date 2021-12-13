@@ -8,10 +8,11 @@
 # testing
 /coverage
 
+# Environment Variables should NEVER be published
+.env
+
 # production
 /build
-
-.env
 
 # misc
 .DS_Store
