@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { GlobalState } from "../../GlobalState";
 import Menu from "./icon/menu.svg";
 import Close from "./icon/close.svg";
@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const value = useContext(GlobalState);
+  console.log(value);
   return (
     <header>
       <div className="menu">
