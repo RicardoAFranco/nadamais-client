@@ -1,42 +1,56 @@
-header {
-  min-height: 70px;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid #ddd;
+header{
+    min-height: 90px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: rgb(253, 253, 253);
+    background-color: rgb(241, 245, 245);
 }
-header .logo {
-  flex: 1;
+header .logo{
+    font-size: 20px;
+    flex: 1;
+    margin-left: 30px;
+   
 }
-header a {
-  text-transform: uppercase;
-  color: #555;
+
+
+header a{
+    text-transform: uppercase;
+    color: rgb(44, 99, 81);
 }
-header ul li {
-  display: inline-block;
-  opacity: 0.7;
-  padding: 0 20px;
+header a:hover{
+    color: rgb(54, 122, 116);
 }
-header ul li:hover {
-  opacity: 1;
+header ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
 }
-.menu {
-  display: none;
+header ul li:hover{
+    opacity: 1;
 }
-.cart-icon {
-  position: relative;
-  margin-right: 20px;
+.menu{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: none;
+    
 }
-.cart-icon span {
-  background: crimson;
-  border-radius: 20px;
-  color: white;
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 5px 7px;
-  font-size: 10px;
+
+.cart-icon{
+    position: relative;
+    margin-right: 30px;
+}
+.cart-icon span{
+    background: rgb(170, 57, 146);
+    border-radius: 50px;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
 }
