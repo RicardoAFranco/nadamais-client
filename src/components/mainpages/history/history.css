@@ -1,0 +1,46 @@
+.history-page{
+    overflow-x: auto;
+}
+.history-page h2, h4{
+    color: rgb(30, 83, 76);
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.history-page table{
+    margin-top: 20px;
+    width: 100%;
+}
+.history-page table,th,tr,td{
+    border: 1px solid rgb(167, 164, 164);
+    border-collapse: collapse;
+}
+th{
+   
+    background-color: rgb(228, 213, 228);
+}
+td{
+    font-size: 15px;
+    background-color: rgb(236, 229, 229);
+    font-weight: bold;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+table a{
+    color: rgb(135, 207, 199);
+}
+
+.history-page img{
+    border-radius: 5%;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.empty{
+    width: 150px;
+}
